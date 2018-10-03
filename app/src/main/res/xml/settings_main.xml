@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <ListPreference
+        android:defaultValue="London"
+        android:entries="@array/settings_order_labels"
+        android:entryValues="@array/settings_order_labels"
+        android:key="@string/shared_preferences_key"
+        android:title="Location"/>-->
+
+    <EditTextPreference
+        android:defaultValue="London"
+        android:inputType="text"
+        android:key="@string/shared_preferences_key"
+        android:selectAllOnFocus="true"
+        android:title="Location"/>
+
+</PreferenceScreen>
